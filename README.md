@@ -17,8 +17,10 @@ Pytorchによる<a href="https://arxiv.org/abs/2106.06103">VITS</a>の実装で�
 
 ライブラリの詳細は`requirements.txt`を参照。  
 ライブラリはpipによるインストールを推奨します。
+
 (1)torchをインストール
 pip install torch torchvision torchaudio
+
 (2)ライブラリをインストール
 pip install -r requirements.txt
 
