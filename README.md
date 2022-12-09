@@ -13,7 +13,6 @@ Pytorchによる<a href="https://arxiv.org/abs/2106.06103">VITS</a>の実装で�
 * Ubuntu20.04  
 * Python 3.8.5
 * torch
-* torcha
 * Cython==0.29.26  
 
 ライブラリの詳細は`requirements.txt`を参照。  
