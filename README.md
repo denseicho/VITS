@@ -12,12 +12,16 @@ Pytorchによる<a href="https://arxiv.org/abs/2106.06103">VITS</a>の実装で�
 ## 想定環境
 * Ubuntu20.04  
 * Python 3.8.5
-* torch==1.10.1+cu113
-* torchaudio==0.10.1+cu113  
+* torch
+* torcha
 * Cython==0.29.26  
 
 ライブラリの詳細は`requirements.txt`を参照。  
 ライブラリはpipによるインストールを推奨します。
+(1)torchをインストール
+pip install torch torchvision torchaudio
+(2)ライブラリをインストール
+pip install -r requirements.txt
 
 ## プログラム
 - `jvs_preprocessor.py`はJVS corpusに対し前処理を行うプログラムです。  
